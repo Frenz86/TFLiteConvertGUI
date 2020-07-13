@@ -52,7 +52,7 @@ After you've install guietta, simply clone this repository and
 run `main.py`.
 
 ```
-$ git clone shubham0204/TFLiteConvertGUI
+$ git clone https://github.com/shubham0204/TFLiteConvertGUI
 ```
 
 ```
