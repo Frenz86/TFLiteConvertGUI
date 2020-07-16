@@ -46,6 +46,10 @@ $ conda install tensorflow=1.15.0
 > only require the `tflite_convert` script that comes with both 
 > the distributions.
 
+### For TensorFlow 2.0 and higher
+
+The `tflite_convert` script allows us to only convert SavedModels and Keras models to TL Lite format. To enable the TensorFlow v1.x's TFLiteConverter, we need to pass the `--enable_v1_converter` argument. So, if you're using TensorFlow 2.0 or higher, make sure you add this argument in the "Additional Commands" box.
+
 ## Usage
 
 After you've install guietta, simply clone this repository and 
